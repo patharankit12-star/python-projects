@@ -1,0 +1,7 @@
+print("Hello  World! My Python Journey Starts Today ","hdiewfjeiv")
+print(1)
+print("4")
+print(9*10)
+print(9/10)
+print(9+1)
+print(9-23)

@@ -1,0 +1,4 @@
+hello man!
+what's your name?
+what is your education qulification?
+what should you want? hey i am inside hello file:

@@ -1,0 +1,26 @@
+# function-Argument
+"""1.Default Arguments
+   2.keyword Arguments
+   3.variable length Arguments
+   4.Required Arguments"""
+
+def average(a=9,b=1):#if don't give a or b value then publish 'required arguments'
+    print("The average is ",(a+b)/2)
+
+average(b=9) #Default Arguments
+
+average(b=9,a=21)#keyword Arguments
+
+
+#variable length Arguments
+
+def average(*numbers):
+    sum=0
+    for i in numbers:
+     sum = sum + i
+#    print("Average is: ",sum/len(numbers))
+    return sum/len(numbers)
+
+
+c= average(5,6,7)
+print(c)
